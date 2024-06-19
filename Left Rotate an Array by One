@@ -1,0 +1,16 @@
+#include <bits/stdc++.h> 
+vector<int> rotateArray(vector<int>& arr, int n) {
+    vector<int> final;
+   int x=arr[0];
+   for(int i=1;i<arr.size();i++){
+       final.push_back(arr[i]);
+   }
+
+   final.push_back(x);
+
+   return final;
+}
+
+
+    // Write your code here.
+
